@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|EB+Garamond&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #FFFFFF;
+	padding: 60px;
+	font-family:'Assistant', sans-serif;
+	font-weight: bold;
+	font-size: 50px
+	color: #00009D;
+	line-height: 2px; 
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 2em;
+	padding: 20px;
+}
+
+nav {
+	background-color: #FFFFFF;
+	font-size: 25px
+	color: #00009D;
+	margin-right: 10px;
+	float: right;
+}
+	
+
+
+body {
+	font-size:20px; /*1em=20px*/
+	color: #00009D; 
+	background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400; 
+}
+
+img {
+	width: 100%;
+}
+
+section {
+}
+
+.center {
+	margin: auto;
+	width: 30em; 
+	border: none;
+	padding-top: 50px;
+}
+
+a {
+	font-family: 'Assistant', sans-serif;
+	font-size: 1em;
+	border-bottom: 1px solid ##00009D;
+	text-transform: uppercase;
+	padding: 20px;
+	text-decoration: none;
+	color: #00009D; 
+}
+
+p {
+	line-height: 1.5em;
+	font-family: 'EB Garamond', serif;
+	color: #00009D;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul, ol {
+	padding-left: 30px; 
+	font-size: 1em; 
+	font-family: 'EB Garamond', serif;
+}
+
+footer {
+	background-color: #E8B38B;
+	padding: 20px; 
+	text-align: center;
+}
