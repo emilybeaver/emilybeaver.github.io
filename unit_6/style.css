@@ -1,0 +1,156 @@
+@import url("https://use.typekit.net/xga3kfz.css");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size:20px; /*1em=20px*/
+	color: #636670; 
+	background-color: #FFF;
+}
+
+header {
+	background-color: #FFF;
+	border: none;
+	padding: 20px;
+	font-family:'basic-sans', sans-serif;
+	font-weight: 300;
+	font-size: 50px
+	line-height: 2px; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	width: 100%;
+	max-width: 200px;
+	text-indent: -999999em;
+	font-family: 'basic-sans', sans-serif;
+}
+nav {
+	background-color: #FFF;
+	font-family: 'basic-sans', sans-serif;
+	border: none;
+	padding: 20px;
+	font-size: 25px
+	font-weight: 700;
+	color: #FFF;
+	margin-right: 10px;
+	float: right;
+}
+
+nav a {
+	text-align: right;
+	text-transform: uppercase;
+	text-decoration: none; 
+	display: block;
+	float: left;
+	font-weight: 700;
+	color: #11B6FF;
+	padding: 20px;
+}
+
+
+#intro {
+	position: relative;
+}
+#intro h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	max-width: 400px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.contents {
+	max-width: 840px;
+	width: 100%;
+	padding: 20px 10px;
+	margin: 0 auto;
+	background-color: #FFF;
+	border: none;
+	padding: 20px;
+}
+
+#left {
+	border: none; 
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+
+#right {
+	border: none;
+	padding:20px;
+	float: right; 
+	width: 50%;
+}
+
+section {
+	background-color: #FFF;
+	border: none;
+	padding: 20px; 
+}
+
+article {
+	background-color: #FFF;
+	border: none;
+	padding: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'basic-sans', sans-serif;
+	font-weight: 400; 
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+a {
+	font-family: 'basic-sans', sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	color: #6ABFFC; 
+}
+
+a:hover {
+	color: #636670;
+}
+p {
+	line-height: 1.5em;
+	font-family: 'yrsa', serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: #00009D;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul, ol {
+	padding-left: 30px; 
+	font-size: 1em; 
+	font-family: 'yrsa', serif;
+}
+
+footer {
+	background-color: #FFF;
+	border: none;
+	padding: 20px; 
+	text-align: center;
+}
