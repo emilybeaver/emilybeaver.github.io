@@ -215,12 +215,12 @@ footer {
 		position: fixed;
 		top: 0;
 		left: 0;
-		background-color: #11B6FF;
 		z-index: 2;
 		transform: translateX(-100%);
 		transition: transform 500ms ease;
 	}
 	nav a {
+		background-color: #11B6FF;
 		color: white;
 		display:block;
 		text-align: left;
