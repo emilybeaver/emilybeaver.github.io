@@ -162,3 +162,23 @@ footer {
 	padding: 1em; 
 	text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+	nav a {
+		float: none;
+		width: auto;
+
+	}
+
+	.button {
+		border: none;
+		padding: none;
+		color: #11B6FF;
+	}
+
+}
+
+#wrapper {
+	width: auto
+	padding: 1em;
+}

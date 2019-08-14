@@ -1,0 +1,243 @@
+@import url("https://use.typekit.net/xga3kfz.css");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size:20px; 
+	background-color: #FFF;
+	font-family:'basic-sans', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+header img {
+	width: 75%;
+}
+
+h1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-indent: -999999em;
+	overflow: hidden;
+	background-image: url(images/logo.png);
+	background-position: center center;
+	background-size: 300px auto; 
+}
+nav {
+	padding: 1em;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+nav a {
+	text-align: right;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-decoration: none; 
+	display: block;
+	float: left;
+	color: #11B6FF;
+	padding: 1em;
+}
+nav a:last-child {
+	padding-right: 0;
+}
+
+a:hover {
+	color: #3C3D3D;
+}
+
+label {
+	text-align: right;
+	font-size: 1.2em;
+	font-family: 'basic-sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none; 
+	display: block;
+	color: #11B6FF;
+	padding: 1em;
+	display: none;
+
+}
+
+#intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#intro figure {
+	width: 66.666%;
+}
+
+#intro figcaption {
+	width: 33.333%;
+	padding-left: 1em;
+}
+
+#toggle {
+	display: none;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.contents {
+	max-width: 42em;
+	width: 100%;
+	padding: 1em 0.5em;
+	margin: 0 auto;
+	color: #3C3D3D;
+	padding: 1em;
+}
+
+.button {
+	border: 0.05em solid white;
+	padding: 1em;
+	font-family:'basic-sans', sans-serif;
+	background-color: #11B6FF;
+	color: #FFF;
+}
+
+
+.two .content {
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+
+.three .content{
+	width: 33%;
+	float: left;
+	padding: 1em;
+}
+
+section {
+	padding: 1em; 
+}
+
+article {
+	padding: 1em;
+}
+
+#about {
+	background-color: #D2D6D6;
+}
+
+#steps {
+	background-color: #D2D6D6;
+}
+
+.content {
+	float: left;
+}
+
+#booking {
+	background-color: #D2D6D6;
+}
+
+h1, h2, h3 {
+	font-weight: 400; 
+	color: #11B6FF;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #6ABFFC; 
+}
+
+p {
+	line-height: 1.5em;
+	font-family: 'yrsa', serif;
+	font-weight: 300;
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul, ol {
+	padding-left: 1em;  
+	font-family: 'yrsa', serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+
+footer {
+	padding: 1em; 
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	nav a {
+		padding: 0.5em;
+		font-size: 1em;	
+	}
+	h1 {
+		width: 150px;
+		height: 150px;
+		background-size: 240px auto;
+	}
+}
+
+
+@media screen and (max-width: 830px) {
+	.two .content, .three .content{
+		width: 100%;
+		float: none;
+	}
+
+	nav{
+		width: 200px;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #11B6FF;
+		z-index: 2;
+		transform: translateX(-100%);
+		transition: transform 500ms ease;
+	}
+	nav a {
+		color: white;
+		display:block;
+		text-align: left;
+		width: 100%;
+		padding: 0.25em;
+	}
+
+	a:hover {
+	color: #3C3D3D;
+}
+
+	label {
+		display: block;
+	}
+	#toggle:checked + nav{
+		transform: translateX(0);
+	}
+}
+
+
