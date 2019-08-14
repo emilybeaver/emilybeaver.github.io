@@ -225,6 +225,7 @@ footer {
 		display:block;
 		text-align: left;
 		width: 100%;
+		height: auto;
 		padding: 0.25em;
 	}
 
