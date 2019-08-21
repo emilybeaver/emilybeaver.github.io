@@ -1,0 +1,300 @@
+@import url("https://use.typekit.net/xga3kfz.css");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size:20px; 
+	background-color: #FFF;
+	font-family:'basic-sans', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 1em;
+}
+
+h1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-indent: -999999em;
+	overflow: hidden;
+	background-image: url(images/logo.png);
+	background-position: center center;
+	background-size: 300px auto; 
+	margin: 0 auto;
+}
+nav {
+	padding: 0.8em;
+	margin-bottom: 1em;
+	font-size: 0.8em;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none; 
+	display: block;
+	color: #3C3D3D;
+	padding: 1em;
+}
+
+a:hover {
+	color: #11B6FF;
+}
+
+#closemenu{
+	display: none;
+}
+
+/*label {
+	text-align: right;
+	font-size: 1.2em;
+	font-family: 'basic-sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none; 
+	display: block;
+	color: #11B6FF;
+	padding: 1em;
+	display: none;
+
+}*/
+
+fieldset {
+	padding: 1em;
+}
+
+input { 
+	padding: 1em; 
+}
+
+#openmenu {
+	display: none;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.contents {
+	max-width: 42em;
+	width: 100%;
+	padding: 1em 0.5em;
+	margin: 0 auto;
+	color: #3C3D3D;
+	padding: 1em;
+}
+
+.button {
+	border: 0.05em solid white;
+	padding: 1em;
+	font-family:'basic-sans', sans-serif;
+	background-color: #11B6FF;
+	color: #FFF;
+}
+
+.two .content {
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+
+/*.three .content{
+	width: 33%;
+	float: left;
+	padding: 1em;
+}
+*/
+section {
+	padding: 1em; 
+}
+
+article {
+	padding: 1em;
+}
+
+#intro {
+	max-width: 42em;
+	width: 100%;
+	padding: 1em 0.5em;
+	margin: 0 auto;
+	color: #3C3D3D;
+	padding: 1em;
+}
+
+#intro h2 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 300;
+	margin-bottom: 0;  
+}
+
+#about {
+	background-color: #D2D6D6;
+}
+#steps {
+	align-content: center;
+	text-align: center;
+	max-width: 35em;
+}
+
+#steps .content {
+	padding: 1em;
+	float: right; 
+}
+
+#steps h2 {
+	text-align: center;
+}
+
+#services {
+	background-color: #D2D6D6;
+}
+
+	
+.content {
+	float: left;
+}
+
+#contact {
+	background-color: #D2D6D6;
+}
+
+h1, h2, h3 {
+	font-weight: 400; 
+	color: #11B6FF;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #6ABFFC; 
+}
+
+p {
+	line-height: 1.5em;
+	font-family: 'yrsa', serif;
+	font-weight: 300;
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul, ol {
+	padding-left: 1em;  
+	font-family: 'yrsa', serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+
+footer {
+	padding: 1em; 
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	nav a {
+		padding: 0.5em;
+		font-size: 1em;	
+	}
+	h1 {
+		width: 150px;
+		height: 150px;
+		background-size: 240px auto;
+	}
+}
+
+
+@media screen and (max-width: 875px) {
+	.two .content, .three .content{
+		width: 100%;
+		float: none;
+	}
+
+	#openmenu{
+		display: block;
+		align-self: flex-end;
+		font-family:'basic-sans', sans-serif;
+		font-size: 1em;
+		font-weight: 300;
+		color: #3C3D3D;
+		border:none;
+	}
+
+	#closemenu{
+		display: block;
+		font-family:'basic-sans', sans-serif;
+		font-size: 1em;
+		font-weight: 300;
+		color: #3C3D3D;
+		background-color: #B8BBC5;
+		padding: .5em;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav{
+		width: 200px;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		transform: translateX(100%);
+		transition: transform 1s ease;
+		display: block;
+		background-color: #11B6FF;
+	}
+	
+	nav a {
+		color: white;
+		display:block;
+		text-align: left;
+		width: 100%;
+		height: auto;
+		padding: 0.25em;
+	}
+
+	a:hover {
+	color: #3C3D3D;
+	}
+
+	/*label {
+		display: block;*//*
+	}*/
+
+	.menuisopen nav{
+		transform: translateX(0);
+	}
+
+	#about img {
+		width: 60%;
+	}
+	#steps h2 {
+	text-align: left;
+	padding: 1em;
+	}
+}
+
+
